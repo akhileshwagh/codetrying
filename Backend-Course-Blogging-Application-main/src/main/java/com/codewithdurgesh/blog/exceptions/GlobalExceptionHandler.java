@@ -34,7 +34,7 @@ public class GlobalExceptionHandler {
 		return new ResponseEntity<Map<String, String>>(resp, HttpStatus.BAD_REQUEST);
 	}
 	
-//changes for git
+//changes for gitbjgfdfghiuyg
 	@ExceptionHandler(ApiException.class)
 	public ResponseEntity<ApiResponse> handleApiException(ApiException ex) {
 		String message = ex.getMessage();
